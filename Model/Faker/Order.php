@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Agranjeon\Faker\Model\Faker;
+namespace Nifth\Faker\Model\Faker;
 
-use Agranjeon\Faker\Api\FakerInterface;
+use Nifth\Faker\Api\FakerInterface;
 use Magento\Catalog\Model\ProductFactory;
 use Magento\Catalog\Model\ResourceModel\Product\CollectionFactory;
 use Magento\CatalogInventory\Helper\Stock;

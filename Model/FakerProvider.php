@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Agranjeon\Faker\Model;
+namespace Nifth\Faker\Model;
 
-use Agranjeon\Faker\Api\FakerInterface;
+use Nifth\Faker\Api\FakerInterface;
 use Magento\Framework\Exception\LocalizedException;
 
 /**

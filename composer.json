@@ -1,5 +1,5 @@
 {
-  "name": "agranjeon/magento2-faker",
+  "name": "nifth/magento2-faker",
   "description": "Faker module for Magento2",
   "require": {
     "php": "~7.0.0|~7.1.0|~7.2.0",
@@ -15,13 +15,13 @@
       "registration.php"
     ],
     "psr-4": {
-      "Agranjeon\\Faker\\": ""
+      "Nifth\\Faker\\": ""
     }
   },
   "authors": [
     {
       "name": "Alexandre Granjeon",
-      "homepage": "https://github.com/agranjeon",
+      "homepage": "https://github.com/nifth",
       "role": "Developer"
     }
   ]

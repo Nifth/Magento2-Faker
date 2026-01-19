@@ -4,6 +4,6 @@ declare(strict_types=1);
 
 \Magento\Framework\Component\ComponentRegistrar::register(
     \Magento\Framework\Component\ComponentRegistrar::MODULE,
-    'Agranjeon_Faker',
+    'Nifth_Faker',
     __DIR__
 );

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Agranjeon\Faker\Model\Config\Source\Payment;
+namespace Nifth\Faker\Model\Config\Source\Payment;
 
 /**
  * @author Alexandre Granjeon <alexandre.granjeon@gmail.com>

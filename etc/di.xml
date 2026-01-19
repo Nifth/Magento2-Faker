@@ -4,26 +4,26 @@
     <type name="Magento\Framework\Console\CommandList">
         <arguments>
             <argument name="commands" xsi:type="array">
-                <item name="agranjeon_faker_fake" xsi:type="object">Agranjeon\Faker\Console\Command\Fake</item>
+                <item name="nifth_faker_fake" xsi:type="object">Nifth\Faker\Console\Command\Fake</item>
             </argument>
         </arguments>
     </type>
 
-    <type name="Agranjeon\Faker\Model\FakerProvider">
+    <type name="Nifth\Faker\Model\FakerProvider">
         <arguments>
             <argument name="fakerList" xsi:type="array">
-                <item name="category" xsi:type="object">Agranjeon\Faker\Model\Faker\Category</item>
-                <item name="product" xsi:type="object">Agranjeon\Faker\Model\Faker\Product</item>
-                <item name="customer" xsi:type="object">Agranjeon\Faker\Model\Faker\Customer</item>
-                <item name="customer_address" xsi:type="object">Agranjeon\Faker\Model\Faker\CustomerAddress</item>
-                <item name="order" xsi:type="object">Agranjeon\Faker\Model\Faker\Order</item>
-                <item name="invoice" xsi:type="object">Agranjeon\Faker\Model\Faker\Invoice</item>
-                <item name="shipment" xsi:type="object">Agranjeon\Faker\Model\Faker\Shipment</item>
+                <item name="category" xsi:type="object">Nifth\Faker\Model\Faker\Category</item>
+                <item name="product" xsi:type="object">Nifth\Faker\Model\Faker\Product</item>
+                <item name="customer" xsi:type="object">Nifth\Faker\Model\Faker\Customer</item>
+                <item name="customer_address" xsi:type="object">Nifth\Faker\Model\Faker\CustomerAddress</item>
+                <item name="order" xsi:type="object">Nifth\Faker\Model\Faker\Order</item>
+                <item name="invoice" xsi:type="object">Nifth\Faker\Model\Faker\Invoice</item>
+                <item name="shipment" xsi:type="object">Nifth\Faker\Model\Faker\Shipment</item>
             </argument>
         </arguments>
     </type>
 
-    <type name="Agranjeon\Faker\Model\Faker\Order">
+    <type name="Nifth\Faker\Model\Faker\Order">
         <arguments>
             <argument name="quoteManagement" xsi:type="object">Magento\Quote\Model\QuoteManagement\Proxy</argument>
         </arguments>

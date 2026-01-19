@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Agranjeon\Faker\Model\Faker;
+namespace Nifth\Faker\Model\Faker;
 
-use Agranjeon\Faker\Api\FakerInterface;
+use Nifth\Faker\Api\FakerInterface;
 use Magento\Catalog\Api\CategoryLinkManagementInterface;
 use Magento\Catalog\Api\ProductRepositoryInterface;
 use Magento\Catalog\Model\ProductFactory;

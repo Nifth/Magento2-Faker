@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Agranjeon\Faker\Model\Faker;
+namespace Nifth\Faker\Model\Faker;
 
 use Faker\Factory;
 use Faker\Generator;

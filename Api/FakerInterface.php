@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Agranjeon\Faker\Api;
+namespace Nifth\Faker\Api;
 
 use Symfony\Component\Console\Output\OutputInterface;
 

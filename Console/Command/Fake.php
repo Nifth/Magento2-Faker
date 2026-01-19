@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Agranjeon\Faker\Console\Command;
+namespace Nifth\Faker\Console\Command;
 
-use Agranjeon\Faker\Model\FakerProvider;
+use Nifth\Faker\Model\FakerProvider;
 use Magento\Framework\App\Area;
 use Magento\Framework\App\Config\ScopeConfigInterface;
 use Magento\Framework\App\State;
@@ -67,7 +67,7 @@ class Fake extends Command
      */
     protected function configure()
     {
-        $this->setName('agranjeon:fake:data')->setDescription('Generate fake data')->setDefinition(
+        $this->setName('nifth:fake:data')->setDescription('Generate fake data')->setDefinition(
             [
                 new InputArgument(
                     self::CODE_ARGUMENT,

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Agranjeon\Faker\Model\Faker;
+namespace Nifth\Faker\Model\Faker;
 
-use Agranjeon\Faker\Api\FakerInterface;
+use Nifth\Faker\Api\FakerInterface;
 use Magento\Sales\Model\Convert\Order as OrderConverter;
 use Symfony\Component\Console\Helper\ProgressBar;
 use Symfony\Component\Console\Output\OutputInterface;
